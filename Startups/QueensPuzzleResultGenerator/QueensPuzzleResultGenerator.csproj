@@ -49,5 +49,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Library\CoreGraphSearch\CoreGraphSearch.csproj">
+      <Project>{5a60cd52-ea8a-4efc-9c81-98aae42e1607}</Project>
+      <Name>CoreGraphSearch</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Library\GraphSearchQueensPuzzle\GraphSearchQueensPuzzle.csproj">
+      <Project>{79b64444-e502-474b-a17a-66453c79adca}</Project>
+      <Name>GraphSearchQueensPuzzle</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -9,7 +9,7 @@ ____
 
 Использовалась следующие инструменты:
 - Visual Studio 2022
-- [ConsoleLibrary](https://github.com/Bocmen/ConsoleLabrary)
+- [ConsoleLibrary](https://github.com/Bocmen/ConsoleLibrary)
 - Xamarin.Forms
 
 В данной работе будет проводиться исследование в эффективности работы алгоритмов полного перебора графа на задаче размещения ферзей.
